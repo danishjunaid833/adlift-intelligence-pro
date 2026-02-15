@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { AdInput, DiagnosticResult } from "../types";
 
 export const analyzeAdCopy = async (input: AdInput): Promise<DiagnosticResult> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   
   const textPrompt = `
     You are a senior advertising effectiveness analyst. 
