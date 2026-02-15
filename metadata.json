@@ -1,0 +1,9 @@
+
+{
+  "name": "AdLift Intelligence Pro",
+  "description": "A high-end creative diagnostic tool for advertising effectiveness analysts to evaluate ad copy and video creative impact, brand lift potential, and performance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
